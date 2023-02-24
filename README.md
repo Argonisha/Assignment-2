@@ -13,3 +13,6 @@ The cake problem was relatively easy, I emulated the lightswitch problem that we
 For the vase problem I really struggled, I spent ~18 hours trying to implement a queue.   
 In the chapter 7 slides I found the Anderson queue but could'nt figure out how to implement it.
 I then tried to move to the Java structure ConcurrentLinkedQueue, and I had a good way to continuously dequeue people, but couldn't manage to get the threads to requeue theirselves one dequeued, if they wanted to.
+
+# Disclaimer
+I realize that the MinotaurVase file was commit after 11:59, but my solution doesn't even work 100% correctly so it's pretty obvious I wasn't cheating off anyone.
