@@ -7,5 +7,9 @@ For option two, I think this could lead to similar problems, although there woul
 ## Option 3
 For option three, I believe this is the best option. The queue ensures that a guest knows roughly when they should be able to get in.  
 If a big group forms, the queue should take care of all the people. The only issue would be that the threads can't go do what they want while waiting.  
+# Strategy
+The cake problem was relatively easy, I emulated the lightswitch problem that we discussed in class at some point.  
 
-
+For the vase problem I really struggled, I spent ~18 hours trying to implement a queue.   
+In the chapter 7 slides I found the Anderson queue but could'nt figure out how to implement it.
+I then tried to move to the Java structure ConcurrentLinkedQueue, and I had a good way to continuously dequeue people, but couldn't manage to get the threads to requeue theirselves one dequeued, if they wanted to.
